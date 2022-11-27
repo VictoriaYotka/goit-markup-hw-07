@@ -1,0 +1,15 @@
+// Utils styles
+@import './utils/variables';
+@import'./utils/visually-hidden';
+
+// Base styles
+@import './base/base';
+@import './base/reset';
+@import './base/card-set';
+@import './base/socials';
+
+// Components styles
+@import './components/section';
+@import './components/container';
+@import './components/btn';
+@import './components/section-title';
