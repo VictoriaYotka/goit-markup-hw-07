@@ -3,28 +3,29 @@
 @import'./utils/visually-hidden';
 
 // Base styles
-@import './base/base';
+@import './base/common.scss';
 @import './base/reset';
-@import './base/card-set';
-@import './base/socials';
-@import './base/logo';
 
 // Components styles
+@import './components/header';
+@import './components/navigation';
+@import './components/logo';
 @import './components/section';
 @import './components/container';
 @import './components/btn';
 @import './components/section-title';
-
-@import './components/header';
-@import './components/navigation';
-@import './components/hero';
-@import './components/specific';
-@import './components/activities';
-@import './components/team';
-@import './components/customers';
+@import './components/card-set';
+@import './components/socials';
 @import './components/footer';
 @import './components/footer-form';
-@import './components/modal-window';
-@import './components/button-list';
-@import './components/examples';
+
+// Layout styles
+@import './layout/hero';
+@import './layout/specific';
+@import './layout/activities';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/modal-window';
+@import './layout/button-list';
+@import './layout/examples';
 
